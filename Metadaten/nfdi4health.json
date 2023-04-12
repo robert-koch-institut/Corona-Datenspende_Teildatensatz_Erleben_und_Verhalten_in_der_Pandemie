@@ -1,0 +1,180 @@
+{
+  "data": {
+    "type": "studyhub_resources",
+    "attributes": {
+      "commit_button": "Submit",
+      "content_blobs": [
+        {
+          "content_type": "text/html",
+          "url": "https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie",
+          "original_filename": "Github Link"
+        }
+      ],
+      "resource": {
+        "resource_type": "Dataset",
+        "resource_type_general": "Dataset",
+        "resource_titles": [
+          {
+            "title": "Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie",
+            "title_language": "DE (German)"
+          }
+        ],
+        "resource_acronyms": [],
+        "resource_descriptions": [
+          {
+            "description": "Die Daten von Fitnessarmbändern und Smartwatches, sogenannten Wearables, können Hinweise auf Symptome einer Infektion mit COVID-19 liefern. Mit Hilfe der Corona-Datenspende-App (https://corona-datenspende.de/science/) (CDA) können Bürger:innen dem Robert Koch-Institut diese Daten zur wissenschaftlichen Auswertung zur Verfügung stellen. Zusammen mit Informationen aus anderen Quellen, z.B. offiziellen Meldedaten zu Fallzahlen, helfen diese Daten den Wissenschaftler:innen, die Ausbreitung des Coronavirus besser zu erfassen und zu verstehen.\n\nIn ihrer ersten, seit April 2020 verfügbaren, Version erhob die CDA nur sogenannte Vitaldaten der Nutzer:innen, insbesondere den Ruhepuls, körperliche Aktivität und Schlafverhalten. In einem Update im Oktober 2021 wurden der App Umfragemodule zu verschiedenen, für die Pandemieforschung relevanten Fragestellungen, hinzugefügt. Die hier bereitgestellten Daten entstammen der Teilstudie “Erleben und Verhalten in der Pandemie” die momentan als eines von drei Befragungsmodulen innerhalb der CDA durchgeführt wird. Sie basiert auf dem COVID-19 Snapshot Monitoring (COSMO) (https://projekte.uni-erfurt.de/cosmo2020/web/), einem sich wiederholenden querschnittlichen Monitoring von Wissen, Risikowahrnehmung, Schutzverhalten und Vertrauen während des aktuellen COVID-19 Ausbruchsgeschehens (Betsch et al., 2022). In dieser Studie wollen das Robert Koch-Institut sowie führende Verhaltensforscher:innen erfahren, wie sich die Bevölkerung unter pandemischen Bedingungen verhält. Durch die Beantwortung regelmäßiger Fragebögen können Teilnehmer:innen dabei helfen, Strategien zur Bekämpfung des Coronavirus zu optimieren. Die Forscher:innen wollen hierzu mehr über den Arbeitsalltag, die persönliche Belastung und die Risikowahrnehmung lernen.\n\nDie hier bereitgestellten Daten dienen der Reproduktion aller Ergebnisse in der Studie “From Delta to Omicron: The role of individual factors and social context in compliance with pandemic regulations and recommendations” (Sprengholz et al., 2022, in Begutachtung). Es werden hier daher jene Datenpunkte aus der Studie „Erleben und Verhalten in der Pandemie“ bereitgestellt, die zu diesem Zweck benötigt werden. Das heißt auch, dass nicht alle im Rahmen dieser Studie erhobenen Datenpunkte, beispielsweise Informationen zu COVID-19-Testergebnissen, sowie alle Zeitpunkte der Erhebung im vorliegenden Datensatz enthalten sind. Ein Link zur oben genannten Publikation folgt nach der Veröffentlichung in einer Fachzeitschrift.",
+            "description_language": "DE (German)"
+          }
+        ],
+        "resource_format": "",
+        "resource_keywords": [
+          {
+            "resource_keywords_label": "COVID-19",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "SARS-CoV-2",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Survey Data",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Datenspende",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Deutschland",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Germany",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Open Data",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "RKI",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Gesundheitsberichterstattung",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Epidemiologie",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Public health surveillance",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Epidemiology",
+            "resource_keywords_label_code": ""
+          }
+        ],
+        "resource_language": [
+          "DE (German)"
+        ],
+        "resource_version": "2022-10-11",
+        "resource_web_page": "https://robert-koch-institut.github.io/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/",
+        "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+        "resource_use_rights_description": "",
+        "resource_use_rights_authors_confirmation_1": true,
+        "resource_use_rights_authors_confirmation_2": true,
+        "resource_use_rights_authors_confirmation_3": true,
+        "resource_use_rights_support_by_licencing": true,
+        "provenance": {
+          "data_source": ""
+        },
+        "roles": [
+          {
+            "role_type": "Creator/Author",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_address": "",
+            "role_affiliation_web_page": "",
+            "role_affiliation_identifiers": [],
+            "role_name_type": "Personal",
+            "role_name_personal_title": "Other",
+            "role_name_personal_given_name": "Marc",
+            "role_name_personal_family_name": "Wiedermann",
+            "role_name_identifiers": [
+              {
+                "role_name_identifier": "0000-0001-9869-3789",
+                "role_name_identifier_scheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "role_type": "Creator/Author",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_name": "Universität Erfurt",
+            "role_affiliation_address": "",
+            "role_affiliation_web_page": "",
+            "role_affiliation_identifiers": [],
+            "role_name_type": "Personal",
+            "role_name_personal_title": "Other",
+            "role_name_personal_given_name": "Philipp",
+            "role_name_personal_family_name": "Sprengholz",
+            "role_name_identifiers": [
+              {
+                "role_name_identifier": "0000-0002-9925-1920",
+                "role_name_identifier_scheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "role_type": "Creator/Author",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_address": "",
+            "role_affiliation_web_page": "",
+            "role_affiliation_identifiers": [],
+            "role_name_type": "Personal",
+            "role_name_personal_title": "Other",
+            "role_name_personal_given_name": "Dirk",
+            "role_name_personal_family_name": "Brockmann",
+            "role_name_identifiers": [
+              {
+                "role_name_identifier": "0000-0001-5708-2922",
+                "role_name_identifier_scheme": "ORCID"
+              }
+            ]
+          }
+        ],
+        "ids": [
+          {
+            "id_identifier": "https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie",
+            "id_date": "",
+            "id_type": "URL",
+            "id_relation_type": "describes",
+            "id_resource_type_general": "Dataset"
+          },
+          {
+            "id_identifier": "10.5281/zenodo.7185199",
+            "id_date": "",
+            "id_type": "DOI",
+            "id_relation_type": "has part",
+            "id_resource_type_general": "Dataset"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "projects": {
+        "data": [
+          {
+            "id": "1",
+            "type": "projects"
+          }
+        ]
+      }
+    }
+  }
+}

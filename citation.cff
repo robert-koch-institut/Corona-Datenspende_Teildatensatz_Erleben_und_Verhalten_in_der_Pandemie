@@ -1,0 +1,75 @@
+cff-version: 1.2.0
+type: dataset
+title: Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie
+abstract: >-
+  Die Daten von Fitnessarmbändern und Smartwatches, sogenannten Wearables,
+  können Hinweise auf Symptome einer Infektion mit COVID-19 liefern. Mit Hilfe
+  der Corona-Datenspende-App (https://corona-datenspende.de/science/) (CDA)
+  können Bürger:innen dem Robert Koch-Institut diese Daten zur
+  wissenschaftlichen Auswertung zur Verfügung stellen. Zusammen mit
+  Informationen aus anderen Quellen, z.B. offiziellen Meldedaten zu Fallzahlen,
+  helfen diese Daten den Wissenschaftler:innen, die Ausbreitung des Coronavirus
+  besser zu erfassen und zu verstehen.
+
+
+  In ihrer ersten, seit April 2020 verfügbaren, Version erhob die CDA nur
+  sogenannte Vitaldaten der Nutzer:innen, insbesondere den Ruhepuls, körperliche
+  Aktivität und Schlafverhalten. In einem Update im Oktober 2021 wurden der App
+  Umfragemodule zu verschiedenen, für die Pandemieforschung relevanten
+  Fragestellungen, hinzugefügt. Die hier bereitgestellten Daten entstammen der
+  Teilstudie “Erleben und Verhalten in der Pandemie” die momentan als eines von
+  drei Befragungsmodulen innerhalb der CDA durchgeführt wird. Sie basiert auf
+  dem COVID-19 Snapshot Monitoring (COSMO)
+  (https://projekte.uni-erfurt.de/cosmo2020/web/), einem sich wiederholenden
+  querschnittlichen Monitoring von Wissen, Risikowahrnehmung, Schutzverhalten
+  und Vertrauen während des aktuellen COVID-19 Ausbruchsgeschehens (Betsch et
+  al., 2022). In dieser Studie wollen das Robert Koch-Institut sowie führende
+  Verhaltensforscher:innen erfahren, wie sich die Bevölkerung unter pandemischen
+  Bedingungen verhält. Durch die Beantwortung regelmäßiger Fragebögen können
+  Teilnehmer:innen dabei helfen, Strategien zur Bekämpfung des Coronavirus zu
+  optimieren. Die Forscher:innen wollen hierzu mehr über den Arbeitsalltag, die
+  persönliche Belastung und die Risikowahrnehmung lernen.
+
+
+  Die hier bereitgestellten Daten dienen der Reproduktion aller Ergebnisse in
+  der Studie “From Delta to Omicron: The role of individual factors and social
+  context in compliance with pandemic regulations and recommendations”
+  (Sprengholz et al., 2022, in Begutachtung). Es werden hier daher jene
+  Datenpunkte aus der Studie „Erleben und Verhalten in der Pandemie“
+  bereitgestellt, die zu diesem Zweck benötigt werden. Das heißt auch, dass
+  nicht alle im Rahmen dieser Studie erhobenen Datenpunkte, beispielsweise
+  Informationen zu COVID-19-Testergebnissen, sowie alle Zeitpunkte der Erhebung
+  im vorliegenden Datensatz enthalten sind. Ein Link zur oben genannten
+  Publikation folgt nach der Veröffentlichung in einer Fachzeitschrift.
+date-released: '2022-10-11'
+keywords:
+  - COVID-19
+  - SARS-CoV-2
+  - Survey Data
+  - Datenspende
+  - Deutschland
+  - Germany
+  - Open Data
+  - RKI
+  - Gesundheitsberichterstattung
+  - Epidemiologie
+  - Public health surveillance
+  - Epidemiology
+message: Cite me!
+url: >-
+  https://robert-koch-institut.github.io/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/
+license: CC-BY-4.0
+doi: 10.5281/zenodo.7185199
+authors:
+  - family-names: Wiedermann
+    given-names: Marc
+    affiliation: Robert Koch-Institut
+    orcid: 0000-0001-9869-3789
+  - family-names: Sprengholz
+    given-names: Philipp
+    affiliation: Universität Erfurt
+    orcid: 0000-0002-9925-1920
+  - family-names: Brockmann
+    given-names: Dirk
+    affiliation: Robert Koch-Institut
+    orcid: 0000-0001-5708-2922
