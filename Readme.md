@@ -104,26 +104,26 @@ Insgesamt werden Antworten der Nutzer:innen auf 16 sich teils regelmäßig wiede
 
 | Varname | Format | Ausprägungen| Kurzbeschreibung|
 | ------- | ------ | ----------- | ---- |
-| userid | ganzzahlig | Fortlaufend | User ID der antwortgebenden Person |
+| userId | ganzzahlig | Fortlaufend | User ID der antwortgebenden Person |
 | questionnaire | kategorisch| [`1`,`2`,`3`] | Art des Fragebogens (`1.` Baseline, `2.`	Monatlich, `3.`	Wöchentlich)|
 | gender| dichotom | `male`,`female` | Geschlecht |
 | birthDate | ganzzahlig | 5-Jahres Kategorien | Geburtsjahr |
-| AFFRISK | Ordinal | [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung des affektiven Risikos, Formulierung und Ausprägungen siehe oben |
-| BF_AGREE | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung der eigenen Vertraeglichkeit, Formulierung und Ausprägungen siehe oben |
-| BF_CONSC | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung der eigenen Gewissenhaftigkeit, Formulierung und Ausprägungen siehe oben |
-| BF_EXTRA | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung der eigenen Extraversion, Formulierung und Ausprägungen siehe oben |
-| BF_NEURO | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung des eigenen Neurotizismus, Formulierung und Ausprägungen siehe oben |
-| BF_OPEN  | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung der eigenen Offenheit, Formulierung und Ausprägungen siehe oben |
-| CHILDREN | dichotom | `ja`, `nein` | Vorhandensein von Kindern, Formulierung siehe oben |
-| EXAGG | Ordinal | [`1`,`2`,`3`,`4`,`5`] | Individuelle Einschätzung von Schutzmaßnahmen, Formulierung und Ausprägungen siehe oben|
-| PROB| Ordinal | [`1`,`2`,`3`,`4`,`5`] | Einschätzung der eigenen Erkrankungswahrscheinlichkeit, Formulierung und Ausprägungen siehe oben|
-| PROTECT_7D_PRIVATE| Ordinal| [`1`,`2`,`3`,`4`,`5`] | Privates Schutzverhalten, Formulierung und Ausprägungen siehe oben |
-| PROTECT_7D_WORK_<br>COLLEAGUES | Ordinal| [`1`,`2`,`3`,`4`,`5`]| Schutzverhalten der Kollegen am Arbeitsplatz, Formulierung und Ausprägungen siehe oben|
-| PROTECT_7D_WORK_OWN| Ordinal| [`1`,`2`,`3`,`4`,`5`] | Eigenes Schutzverhalten am Arbeitsplatz, Formulierung und Ausprägungen siehe oben |
-| SEVERITY| Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung, Formulierung und Ausprägungen siehe oben|
-| TRUST_GOV| Ordinal| [`1`,`2`,`3`,`4`,`5`]| Vertrauen in die Regierung, Formulierung Ausprägungen siehe oben|
-| WORK| dichotom | `ja`, `nein` | Berufstätigkeit, Formulierung siehe oben |
-| WORKSITUATION | kategorisch| [`1`,`2`,`3`]| Gestaltung des Arbeitsalltags, Formulierung und Ausprägungen siehe oben|
+| AFFRISK | Ordinal | [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung des affektiven Risikos, Formulierung und Ausprägungen siehe oben |
+| BF_AGREE | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung der eigenen Vertraeglichkeit, Formulierung und Ausprägungen siehe oben |
+| BF_CONSC | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung der eigenen Gewissenhaftigkeit, Formulierung und Ausprägungen siehe oben |
+| BF_EXTRA | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung der eigenen Extraversion, Formulierung und Ausprägungen siehe oben |
+| BF_NEURO | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung des eigenen Neurotizismus, Formulierung und Ausprägungen siehe oben |
+| BF_OPEN  | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung der eigenen Offenheit, Formulierung und Ausprägungen siehe oben |
+| CHILDREN | dichotom | `1`, `2`, `NA` | Vorhandensein von Kindern, Formulierung siehe oben |
+| EXAGG | Ordinal | [`1`,`2`,`3`,`4`,`5`,`NA`] | Individuelle Einschätzung von Schutzmaßnahmen, Formulierung und Ausprägungen siehe oben|
+| PROB| Ordinal | [`1`,`2`,`3`,`4`,`5`,`NA`] | Einschätzung der eigenen Erkrankungswahrscheinlichkeit, Formulierung und Ausprägungen siehe oben|
+| PROTECT_7D_PRIVATE| Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Privates Schutzverhalten, Formulierung und Ausprägungen siehe oben |
+| PROTECT_7D_WORK_<br>COLLEAGUES | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`]| Schutzverhalten der Kollegen am Arbeitsplatz, Formulierung und Ausprägungen siehe oben|
+| PROTECT_7D_WORK_OWN| Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Eigenes Schutzverhalten am Arbeitsplatz, Formulierung und Ausprägungen siehe oben |
+| SEVERITY| Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung, Formulierung und Ausprägungen siehe oben|
+| TRUST_GOV| Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`]| Vertrauen in die Regierung, Formulierung Ausprägungen siehe oben|
+| WORK| dichotom | `1`, `2`, `NA` | Berufstätigkeit, Formulierung siehe oben |
+| WORKSITUATION | kategorisch| [`1`,`2`,`3`,`NA`]| Gestaltung des Arbeitsalltags, Formulierung und Ausprägungen siehe oben|
 | DATE | YYYY-MM-DD | fortlaufend | Antwortdatum im ISO-8601 Format |
 | sessionIteration| Ganzzahlig | fortlaufend | Wiederholung des Fragebogens. Gibt an, wie häufig der entsprechende Fragebogen in der Vergangenheit bereits an die betreffende Person ausgesteuert wurde |
 | sessionTimestamp| Ganzzahliger Zeitstempel | fortlaufend | Zeitstempel der Antwortübermittlung in [Unixzeit](https://de.wikipedia.org/wiki/Unixzeit). Die Zeitstempel bezieht sich auf die vergangenen Millisekunden seit dem 1. Januar 1970, 00:00 Uhr UTC.|
