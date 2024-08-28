@@ -1,0 +1,119 @@
+{
+  "fields": [
+    {
+      "name": "userId",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "questionnaire",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "gender",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "birthDate",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "AFFRISK",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "BF_AGREE",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "BF_CONSC",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "BF_EXTRA",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "BF_NEURO",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "BF_OPEN",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "CHILDREN",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "EXAGG",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "PROB",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "PROTECT_7D_PRIVATE",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "PROTECT_7D_WORK_COLLEAGUES",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "PROTECT_7D_WORK_OWN",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "SEVERITY",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "TRUST_GOV",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "WORK",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "WORKSITUATION",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "DATE",
+      "type": "date",
+      "constraints": {}
+    },
+    {
+      "name": "sessionIteration",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "sessionTimestamp",
+      "type": "integer",
+      "constraints": {}
+    }
+  ]
+}

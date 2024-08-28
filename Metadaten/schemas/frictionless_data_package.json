@@ -1,0 +1,16 @@
+{
+  "name": "corona-datenspende_teildatensatz_erleben_und_verhalten_in_der_pandemie",
+  "title": "Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "corona_datenspende_erleben_und_verhalten_teildatensatz",
+      "type": "table",
+      "path": "../../Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json"
+    }
+  ]
+}
