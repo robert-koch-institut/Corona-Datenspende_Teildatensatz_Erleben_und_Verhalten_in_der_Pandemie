@@ -1,0 +1,199 @@
+{
+  "fields": [
+    {
+      "name": "userId",
+      "type": "integer",
+      "description": "User ID der antwortgebenden Person"
+    },
+    {
+      "name": "questionnaire",
+      "type": "string",
+      "description": "Art des Fragebogens (`1.` Baseline, `2.`\tMonatlich, `3.`\tWöchentlich)",
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "gender",
+      "type": "string",
+      "description": "Geschlecht",
+      "constraints": {
+        "enum": [
+          "male",
+          "female"
+        ]
+      }
+    },
+    {
+      "name": "birthDate",
+      "type": "integer",
+      "description": "Geburtsjahr"
+    },
+    {
+      "name": "AFFRISK",
+      "type": "number",
+      "description": "Selbsteinschätzung des affektiven Risikos, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "BF_AGREE",
+      "type": "number",
+      "description": "Selbsteinschätzung der eigenen Vertraeglichkeit, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "BF_CONSC",
+      "type": "number",
+      "description": "Selbsteinschätzung der eigenen Gewissenhaftigkeit, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "BF_EXTRA",
+      "type": "number",
+      "description": "Selbsteinschätzung der eigenen Extraversion, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "BF_NEURO",
+      "type": "number",
+      "description": "Selbsteinschätzung des eigenen Neurotizismus, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "BF_OPEN",
+      "type": "number",
+      "description": "Selbsteinschätzung der eigenen Offenheit, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "CHILDREN",
+      "type": "string",
+      "description": "Vorhandensein von Kindern, Formulierung siehe oben",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "EXAGG",
+      "type": "number",
+      "description": "Individuelle Einschätzung von Schutzmaßnahmen, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "PROB",
+      "type": "number",
+      "description": "Einschätzung der eigenen Erkrankungswahrscheinlichkeit, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "PROTECT_7D_PRIVATE",
+      "type": "number",
+      "description": "Privates Schutzverhalten, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "PROTECT_7D_WORK_COLLEAGUES",
+      "type": "number",
+      "description": "Schutzverhalten der Kollegen am Arbeitsplatz, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "PROTECT_7D_WORK_OWN",
+      "type": "number",
+      "description": "Eigenes Schutzverhalten am Arbeitsplatz, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "SEVERITY",
+      "type": "number",
+      "description": "Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "TRUST_GOV",
+      "type": "number",
+      "description": "Vertrauen in die Regierung, Formulierung Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ]
+    },
+    {
+      "name": "WORK",
+      "type": "string",
+      "description": "Berufstätigkeit, Formulierung siehe oben",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "WORKSITUATION",
+      "type": "string",
+      "description": "Gestaltung des Arbeitsalltags, Formulierung und Ausprägungen siehe oben",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "DATE",
+      "type": "date",
+      "description": "Antwortdatum im ISO-8601 Format"
+    },
+    {
+      "name": "sessionIteration",
+      "type": "integer",
+      "description": "Wiederholung des Fragebogens. Gibt an, wie häufig der entsprechende Fragebogen in der Vergangenheit bereits an die betreffende Person ausgesteuert wurde"
+    },
+    {
+      "name": "sessionTimestamp",
+      "type": "integer",
+      "description": "Zeitstempel der Antwortübermittlung in [Unixzeit](https://de.wikipedia.org/wiki/Unixzeit). Die Zeitstempel bezieht sich auf die vergangenen Millisekunden seit dem 1. Januar 1970, 00:00 Uhr UTC."
+    }
+  ]
+}
