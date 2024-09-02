@@ -35,51 +35,105 @@
     },
     {
       "name": "AFFRISK",
-      "type": "number",
+      "type": "string",
       "description": "Selbsteinschätzung des affektiven Risikos, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "BF_AGREE",
-      "type": "number",
+      "type": "string",
       "description": "Selbsteinschätzung der eigenen Vertraeglichkeit, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "BF_CONSC",
-      "type": "number",
+      "type": "string",
       "description": "Selbsteinschätzung der eigenen Gewissenhaftigkeit, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "BF_EXTRA",
-      "type": "number",
+      "type": "string",
       "description": "Selbsteinschätzung der eigenen Extraversion, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "BF_NEURO",
-      "type": "number",
+      "type": "string",
       "description": "Selbsteinschätzung des eigenen Neurotizismus, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "BF_OPEN",
-      "type": "number",
+      "type": "string",
       "description": "Selbsteinschätzung der eigenen Offenheit, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "CHILDREN",
@@ -97,59 +151,122 @@
     },
     {
       "name": "EXAGG",
-      "type": "number",
+      "type": "string",
       "description": "Individuelle Einschätzung von Schutzmaßnahmen, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "PROB",
-      "type": "number",
+      "type": "string",
       "description": "Einschätzung der eigenen Erkrankungswahrscheinlichkeit, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "PROTECT_7D_PRIVATE",
-      "type": "number",
+      "type": "string",
       "description": "Privates Schutzverhalten, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "PROTECT_7D_WORK_COLLEAGUES",
-      "type": "number",
+      "type": "string",
       "description": "Schutzverhalten der Kollegen am Arbeitsplatz, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "PROTECT_7D_WORK_OWN",
-      "type": "number",
+      "type": "string",
       "description": "Eigenes Schutzverhalten am Arbeitsplatz, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "SEVERITY",
-      "type": "number",
+      "type": "string",
       "description": "Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung, Formulierung und Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "TRUST_GOV",
-      "type": "number",
+      "type": "string",
       "description": "Vertrauen in die Regierung, Formulierung Ausprägungen siehe oben",
       "missingValues": [
         "NA"
-      ]
+      ],
+      "constraints": {
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
     },
     {
       "name": "WORK",
