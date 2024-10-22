@@ -8,14 +8,28 @@
     {
       "name": "questionnaire",
       "type": "string",
-      "description": "Art des Fragebogens (`1.` Baseline, `2.`\tMonatlich, `3.`\tWöchentlich)",
+      "description": "Art des Fragebogens",
       "constraints": {
         "enum": [
           "1",
           "2",
           "3"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "Baseline"
+        },
+        {
+          "value": "2",
+          "definition": "Monatlich"
+        },
+        {
+          "value": "3",
+          "definition": "Wöchentlich"
+        }
+      ]
     },
     {
       "name": "gender",
@@ -26,7 +40,17 @@
           "male",
           "female"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "male",
+          "definition": "männlich"
+        },
+        {
+          "value": "female",
+          "definition": "weiblich"
+        }
+      ]
     },
     {
       "name": "birthDate",
@@ -36,7 +60,7 @@
     {
       "name": "AFFRISK",
       "type": "string",
-      "description": "Selbsteinschätzung des affektiven Risikos, Formulierung und Ausprägungen siehe oben",
+      "description": "Selbsteinschätzung des affektiven Risikos (Fragebogen-Formulierung/-Frage: Das Coronavirus ist für mich...)",
       "missingValues": [
         "NA"
       ],
@@ -48,12 +72,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "nicht besorgniserregend"
+        },
+        {
+          "value": "2",
+          "definition": "kaum besorgniserregend"
+        },
+        {
+          "value": "3",
+          "definition": "wenig besorgniserregend"
+        },
+        {
+          "value": "4",
+          "definition": "eher besorgniserregend"
+        },
+        {
+          "value": "5",
+          "definition": "besorgniserregend"
+        }
+      ]
     },
     {
       "name": "BF_AGREE",
       "type": "string",
-      "description": "Selbsteinschätzung der eigenen Vertraeglichkeit, Formulierung und Ausprägungen siehe oben",
+      "description": "Selbsteinschätzung der eigenen Vertraeglichkeit (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
@@ -65,12 +111,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "sehr barsch (kühl, kritisch, wird leicht ärgerlich, misstrauisch)"
+        },
+        {
+          "value": "2",
+          "definition": "eher barsch"
+        },
+        {
+          "value": "3",
+          "definition": "teils/teils"
+        },
+        {
+          "value": "4",
+          "definition": "eher umgänglich"
+        },
+        {
+          "value": "5",
+          "definition": "sehr umgänglich (kooperativ, herzlich, nett, nachgiebig)"
+        }
+      ]
     },
     {
       "name": "BF_CONSC",
       "type": "string",
-      "description": "Selbsteinschätzung der eigenen Gewissenhaftigkeit, Formulierung und Ausprägungen siehe oben",
+      "description": "Selbsteinschätzung der eigenen Gewissenhaftigkeit (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
@@ -82,12 +150,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "sehr gewissenhaft (zuverlässig, sorgfältig, ordentlich, pflichtbewusst, ehrgeizig)"
+        },
+        {
+          "value": "2",
+          "definition": "eher gewissenhaft"
+        },
+        {
+          "value": "3",
+          "definition": "teils/teils"
+        },
+        {
+          "value": "4",
+          "definition": "eher nachlässig"
+        },
+        {
+          "value": "5",
+          "definition": "nachlässig (salopp, unordentlich, unpünktlich, chaotisch, nonchalant)"
+        }
+      ]
     },
     {
       "name": "BF_EXTRA",
       "type": "string",
-      "description": "Selbsteinschätzung der eigenen Extraversion, Formulierung und Ausprägungen siehe oben",
+      "description": "Selbsteinschätzung der eigenen Extraversion (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
@@ -99,12 +189,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "sehr extrovertiert (gesprächig, gesellig, voller Tatendrang, kontaktfreudig)"
+        },
+        {
+          "value": "2",
+          "definition": "eher extrovertiert"
+        },
+        {
+          "value": "3",
+          "definition": "teils/teils"
+        },
+        {
+          "value": "4",
+          "definition": "eher introvertiert"
+        },
+        {
+          "value": "5",
+          "definition": "sehr introvertiert (still, schweigsam, zurückgezogen, eher ein Einzelgänger)"
+        }
+      ]
     },
     {
       "name": "BF_NEURO",
       "type": "string",
-      "description": "Selbsteinschätzung des eigenen Neurotizismus, Formulierung und Ausprägungen siehe oben",
+      "description": "Selbsteinschätzung des eigenen Neurotizismus (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
@@ -116,12 +228,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "sehr emotional (nervös, ängstlich, regt sich leicht auf, angespannt, empfindlich)"
+        },
+        {
+          "value": "2",
+          "definition": "eher emotional"
+        },
+        {
+          "value": "3",
+          "definition": "teils/teils"
+        },
+        {
+          "value": "4",
+          "definition": "eher ausgeglichen "
+        },
+        {
+          "value": "5",
+          "definition": "sehr ausgeglichen (gelassen, entspannt, selbstzufrieden, robust)"
+        }
+      ]
     },
     {
       "name": "BF_OPEN",
       "type": "string",
-      "description": "Selbsteinschätzung der eigenen Offenheit, Formulierung und Ausprägungen siehe oben",
+      "description": "Selbsteinschätzung der eigenen Offenheit (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
@@ -133,12 +267,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "sehr aufgeschlossen (offen für Neues, wissbegierig, kultiviert, fantasievoll)"
+        },
+        {
+          "value": "2",
+          "definition": "eher aufgeschlossen"
+        },
+        {
+          "value": "3",
+          "definition": "teils/teils"
+        },
+        {
+          "value": "4",
+          "definition": "eher festgelegt (feste Ansichten und Meinungen, an Neuem eher wenig interessiert, traditionell, mag Routinen und feste Regeln)"
+        },
+        {
+          "value": "5",
+          "definition": "sehr festgelegt (feste Ansichten und Meinungen, an Neuem eher wenig interessiert, traditionell, mag Routinen und feste Regeln)"
+        }
+      ]
     },
     {
       "name": "CHILDREN",
       "type": "string",
-      "description": "Vorhandensein von Kindern, Formulierung siehe oben",
+      "description": "Vorhandensein von Kindern (Fragebogen-Formulierung/-Frage: \"Haben Sie Kinder unter 18 Jahren?\")",
       "missingValues": [
         "NA"
       ],
@@ -147,12 +303,22 @@
           "1",
           "2"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "Ja"
+        },
+        {
+          "value": "2",
+          "definition": "Nein"
+        }
+      ]
     },
     {
       "name": "EXAGG",
       "type": "string",
-      "description": "Individuelle Einschätzung von Schutzmaßnahmen, Formulierung und Ausprägungen siehe oben",
+      "description": "Individuelle Einschätzung von Schutzmaßnahmen (Fragebogen-Formulierung/-Frage: \"Ich finde die Maßnahmen, die derzeit zur Pandemiebekämpfung ergriffen werden, stark übertrieben.\")",
       "missingValues": [
         "NA"
       ],
@@ -164,12 +330,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "stimme überhaupt nicht zu"
+        },
+        {
+          "value": "2",
+          "definition": "stimme eher nicht zu"
+        },
+        {
+          "value": "3",
+          "definition": "teils/teils"
+        },
+        {
+          "value": "4",
+          "definition": "stimme eher zu"
+        },
+        {
+          "value": "5",
+          "definition": "stimme voll und ganz zu"
+        }
+      ]
     },
     {
       "name": "PROB",
       "type": "string",
-      "description": "Einschätzung der eigenen Erkrankungswahrscheinlichkeit, Formulierung und Ausprägungen siehe oben",
+      "description": "Einschätzung der eigenen Erkrankungswahrscheinlichkeit (Fragebogen-Formulierung/-Frage: \"Wie hoch schätzen Sie Ihre Wahrscheinlichkeit ein, dass Sie sich mit dem Coronavirus infizieren?\")",
       "missingValues": [
         "NA"
       ],
@@ -181,12 +369,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "extrem unwahrscheinlich"
+        },
+        {
+          "value": "2",
+          "definition": "eher unwahrscheinlich"
+        },
+        {
+          "value": "3",
+          "definition": "vielleicht"
+        },
+        {
+          "value": "4",
+          "definition": "eher wahrscheinlich"
+        },
+        {
+          "value": "5",
+          "definition": "extrem wahrscheinlich"
+        }
+      ]
     },
     {
       "name": "PROTECT_7D_PRIVATE",
       "type": "string",
-      "description": "Privates Schutzverhalten, Formulierung und Ausprägungen siehe oben",
+      "description": "Privates Schutzverhalten (Fragebogen-Formulierung/-Frage: \"Bei Ihnen selbst - Wie sehr haben Sie sich in der letzten Woche privat an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?\")",
       "missingValues": [
         "NA"
       ],
@@ -198,12 +408,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "überhaupt nicht"
+        },
+        {
+          "value": "2",
+          "definition": "kaum"
+        },
+        {
+          "value": "3",
+          "definition": "etwas"
+        },
+        {
+          "value": "4",
+          "definition": "überwiegend"
+        },
+        {
+          "value": "5",
+          "definition": "sehr"
+        }
+      ]
     },
     {
       "name": "PROTECT_7D_WORK_COLLEAGUES",
       "type": "string",
-      "description": "Schutzverhalten der Kollegen am Arbeitsplatz, Formulierung und Ausprägungen siehe oben",
+      "description": "Schutzverhalten der Kollegen am Arbeitsplatz (Fragebogen-Formulierung/-Frage: \"Wie sehr haben sich Ihre Kollegen in der letzten Woche am Arbeitsplatz an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?\")",
       "missingValues": [
         "NA"
       ],
@@ -215,12 +447,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "überhaupt nicht"
+        },
+        {
+          "value": "2",
+          "definition": "kaum"
+        },
+        {
+          "value": "3",
+          "definition": "etwas"
+        },
+        {
+          "value": "4",
+          "definition": "überwiegend"
+        },
+        {
+          "value": "5",
+          "definition": "sehr"
+        }
+      ]
     },
     {
       "name": "PROTECT_7D_WORK_OWN",
       "type": "string",
-      "description": "Eigenes Schutzverhalten am Arbeitsplatz, Formulierung und Ausprägungen siehe oben",
+      "description": "Eigenes Schutzverhalten am Arbeitsplatz (Fragebogen-Formulierung/-Frage: \"Wie sehr haben Sie sich in der letzten Woche am Arbeitsplatz an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?\")",
       "missingValues": [
         "NA"
       ],
@@ -232,12 +486,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "überhaupt nicht"
+        },
+        {
+          "value": "2",
+          "definition": "kaum"
+        },
+        {
+          "value": "3",
+          "definition": "etwas"
+        },
+        {
+          "value": "4",
+          "definition": "überwiegend"
+        },
+        {
+          "value": "5",
+          "definition": "sehr"
+        }
+      ]
     },
     {
       "name": "SEVERITY",
       "type": "string",
-      "description": "Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung, Formulierung und Ausprägungen siehe oben",
+      "description": "Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung (Fragebogen-Formulierung/-Frage: \"Wie schätzen Sie eine Infektion mit dem Coronavirus für sich selbst ein?\")",
       "missingValues": [
         "NA"
       ],
@@ -249,12 +525,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "völlig harmlos"
+        },
+        {
+          "value": "2",
+          "definition": "eher harmlos"
+        },
+        {
+          "value": "3",
+          "definition": "mäßig"
+        },
+        {
+          "value": "4",
+          "definition": "eher gefährlich"
+        },
+        {
+          "value": "5",
+          "definition": "extrem gefährlich"
+        }
+      ]
     },
     {
       "name": "TRUST_GOV",
       "type": "string",
-      "description": "Vertrauen in die Regierung, Formulierung Ausprägungen siehe oben",
+      "description": "Vertrauen in die Regierung (Fragebogen-Formulierung/-Frage: \"Wie sehr vertrauen Sie der Bundesregierung, dass sie mit dem Coronavirus gut und richtig umgeht?\")",
       "missingValues": [
         "NA"
       ],
@@ -266,12 +564,34 @@
           "4",
           "5"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "überhaupt nicht"
+        },
+        {
+          "value": "2",
+          "definition": "eher nicht"
+        },
+        {
+          "value": "3",
+          "definition": "teilweise"
+        },
+        {
+          "value": "4",
+          "definition": "überwiegend"
+        },
+        {
+          "value": "5",
+          "definition": "ganz und gar"
+        }
+      ]
     },
     {
       "name": "WORK",
       "type": "string",
-      "description": "Berufstätigkeit, Formulierung siehe oben",
+      "description": "Berufstätigkeit (Fragebogen-Formulierung/-Frage: \"Sind Sie berufstätig?\")",
       "missingValues": [
         "NA"
       ],
@@ -280,12 +600,22 @@
           "1",
           "2"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "Ja"
+        },
+        {
+          "value": "2",
+          "definition": "Nein"
+        }
+      ]
     },
     {
       "name": "WORKSITUATION",
       "type": "string",
-      "description": "Gestaltung des Arbeitsalltags, Formulierung und Ausprägungen siehe oben",
+      "description": "Gestaltung des Arbeitsalltags (Fragebogen-Formulierung/-Frage: \"Wie haben Sie in der letzten Woche ihren Arbeitsalltag gestaltet?\")",
       "missingValues": [
         "NA"
       ],
@@ -295,7 +625,21 @@
           "2",
           "3"
         ]
-      }
+      },
+      "valueDefinitions": [
+        {
+          "value": "1",
+          "definition": "Ich habe ausschließlich im Home Office gearbeitet."
+        },
+        {
+          "value": "2",
+          "definition": "Ich habe teilweise im Home Office gearbeitet."
+        },
+        {
+          "value": "3",
+          "definition": "Ich habe ausschließlich vor Ort bei meinem Arbeitgeber gearbeitet."
+        }
+      ]
     },
     {
       "name": "DATE",
