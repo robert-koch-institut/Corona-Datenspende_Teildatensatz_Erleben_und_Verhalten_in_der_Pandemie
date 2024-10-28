@@ -102,31 +102,34 @@ Die Daten der Studie sind im Datensatz als kommaseparierte `.csv` Datei enthalte
 
 Insgesamt werden Antworten der Nutzer:innen auf 16 sich teils regelmäßig wiederholende Fragen bereit gestellt (siehe oben). Zusätzlich wird eine konstant bleibende User-ID der antwortgebenden Person, sowie Geschlecht und Geburtsjahr (in 5-Jahres Schritten) angegeben. Diese Daten werden bei Installation der CDA erhoben. Ebenso enthalten ist die Frequenz/Art des Fragebogens (einmalig, wöchentlich, monatlich) sowie Meta-Informationen zum Zeitpunkt der Antwortabgabe.
 
-| Varname | Format | Ausprägungen| Kurzbeschreibung|
-| ------- | ------ | ----------- | ---- |
-| userId | ganzzahlig | Fortlaufend | User ID der antwortgebenden Person |
-| questionnaire | kategorisch| [`1`,`2`,`3`] | Art des Fragebogens (`1.` Baseline, `2.`	Monatlich, `3.`	Wöchentlich)|
-| gender| dichotom | `male`,`female` | Geschlecht |
-| birthDate | ganzzahlig | 5-Jahres Kategorien | Geburtsjahr |
-| AFFRISK | Ordinal | [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung des affektiven Risikos, Formulierung und Ausprägungen siehe oben |
-| BF_AGREE | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung der eigenen Vertraeglichkeit, Formulierung und Ausprägungen siehe oben |
-| BF_CONSC | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung der eigenen Gewissenhaftigkeit, Formulierung und Ausprägungen siehe oben |
-| BF_EXTRA | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung der eigenen Extraversion, Formulierung und Ausprägungen siehe oben |
-| BF_NEURO | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung des eigenen Neurotizismus, Formulierung und Ausprägungen siehe oben |
-| BF_OPEN  | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung der eigenen Offenheit, Formulierung und Ausprägungen siehe oben |
-| CHILDREN | dichotom | `1`, `2`, `NA` | Vorhandensein von Kindern, Formulierung siehe oben |
-| EXAGG | Ordinal | [`1`,`2`,`3`,`4`,`5`,`NA`] | Individuelle Einschätzung von Schutzmaßnahmen, Formulierung und Ausprägungen siehe oben|
-| PROB| Ordinal | [`1`,`2`,`3`,`4`,`5`,`NA`] | Einschätzung der eigenen Erkrankungswahrscheinlichkeit, Formulierung und Ausprägungen siehe oben|
-| PROTECT_7D_PRIVATE| Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Privates Schutzverhalten, Formulierung und Ausprägungen siehe oben |
-| PROTECT_7D_WORK_<br>COLLEAGUES | Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`]| Schutzverhalten der Kollegen am Arbeitsplatz, Formulierung und Ausprägungen siehe oben|
-| PROTECT_7D_WORK_OWN| Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Eigenes Schutzverhalten am Arbeitsplatz, Formulierung und Ausprägungen siehe oben |
-| SEVERITY| Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`] | Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung, Formulierung und Ausprägungen siehe oben|
-| TRUST_GOV| Ordinal| [`1`,`2`,`3`,`4`,`5`,`NA`]| Vertrauen in die Regierung, Formulierung Ausprägungen siehe oben|
-| WORK| dichotom | `1`, `2`, `NA` | Berufstätigkeit, Formulierung siehe oben |
-| WORKSITUATION | kategorisch| [`1`,`2`,`3`,`NA`]| Gestaltung des Arbeitsalltags, Formulierung und Ausprägungen siehe oben|
-| DATE | YYYY-MM-DD | fortlaufend | Antwortdatum im ISO-8601 Format |
-| sessionIteration| Ganzzahlig | fortlaufend | Wiederholung des Fragebogens. Gibt an, wie häufig der entsprechende Fragebogen in der Vergangenheit bereits an die betreffende Person ausgesteuert wurde |
-| sessionTimestamp| Ganzzahliger Zeitstempel | fortlaufend | Zeitstempel der Antwortübermittlung in [Unixzeit](https://de.wikipedia.org/wiki/Unixzeit). Die Zeitstempel bezieht sich auf die vergangenen Millisekunden seit dem 1. Januar 1970, 00:00 Uhr UTC.|
+| Variable                   | Typ     | Ausprägungen                                               | Beschreibung                                                                                                                                                                                      |
+|:---------------------------|:--------|:-----------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| userId                     | integer |                                                            | User ID der antwortgebenden Person                                                                                                                                                                |
+| questionnaire              | string  | Werte: `1`, `2`, `3`<br>                                   | Art des Fragebogens (`1.` Baseline, `2.`	Monatlich, `3.`	Wöchentlich)                                                                                                                                                                                                   |
+| gender                     | string  | Werte: `male`, `female`<br>                                | Geschlecht                                                                                                                                                                                        |
+| birthDate                  | integer |                                                            | Geburtsjahr                                                                                                                                                                                       |
+| AFFRISK                    | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Selbsteinschätzung des affektiven Risikos, Formulierung und Ausprägungen siehe oben                                                                                                               |
+| BF_AGREE                   | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Selbsteinschätzung der eigenen Vertraeglichkeit, Formulierung und Ausprägungen siehe oben                                                                                                         |
+| BF_CONSC                   | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Selbsteinschätzung der eigenen Gewissenhaftigkeit, Formulierung und Ausprägungen siehe oben                                                                                                       |
+| BF_EXTRA                   | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Selbsteinschätzung der eigenen Extraversion, Formulierung und Ausprägungen siehe oben                                                                                                             |
+| BF_NEURO                   | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Selbsteinschätzung des eigenen Neurotizismus, Formulierung und Ausprägungen siehe oben                                                                                                            |
+| BF_OPEN                    | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Selbsteinschätzung der eigenen Offenheit, Formulierung und Ausprägungen siehe oben                                                                                                                |
+| CHILDREN                   | string  | Werte: `1`, `2`<br>Fehlende Werte: `NA`<br>                | Vorhandensein von Kindern, Formulierung siehe oben                                                                                                                                                |
+| EXAGG                      | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Individuelle Einschätzung von Schutzmaßnahmen, Formulierung und Ausprägungen siehe oben                                                                                                           |
+| PROB                       | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Einschätzung der eigenen Erkrankungswahrscheinlichkeit, Formulierung und Ausprägungen siehe oben                                                                                                  |
+| PROTECT_7D_PRIVATE         | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Privates Schutzverhalten, Formulierung und Ausprägungen siehe oben                                                                                                                                |
+| PROTECT_7D_WORK_COLLEAGUES | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Schutzverhalten der Kollegen am Arbeitsplatz, Formulierung und Ausprägungen siehe oben                                                                                                            |
+| PROTECT_7D_WORK_OWN        | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Eigenes Schutzverhalten am Arbeitsplatz, Formulierung und Ausprägungen siehe oben                                                                                                                 |
+| SEVERITY                   | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung, Formulierung und Ausprägungen siehe oben                                                                                           |
+| TRUST_GOV                  | string  | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA`<br> | Vertrauen in die Regierung, Formulierung Ausprägungen siehe oben                                                                                                                                  |
+| WORK                       | string  | Werte: `1`, `2`<br>Fehlende Werte: `NA`<br>                | Berufstätigkeit, Formulierung siehe oben                                                                                                                                                          |
+| WORKSITUATION              | string  | Werte: `1`, `2`, `3`<br>Fehlende Werte: `NA`<br>           | Gestaltung des Arbeitsalltags, Formulierung und Ausprägungen siehe oben                                                                                                                           |
+| DATE                       | date    |                                                            | Antwortdatum im ISO-8601 Format                                                                                                                                                                   |
+| sessionIteration           | integer |                                                            | Wiederholung des Fragebogens. Gibt an, wie häufig der entsprechende Fragebogen in der Vergangenheit bereits an die betreffende Person ausgesteuert wurde                                          |
+| sessionTimestamp           | integer |                                                            | Zeitstempel der Antwortübermittlung in [Unixzeit](https://de.wikipedia.org/wiki/Unixzeit). Die Zeitstempel bezieht sich auf die vergangenen Millisekunden seit dem 1. Januar 1970, 00:00 Uhr UTC. |
+
+Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json`](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Metadaten/schemas/frictionless_data_schema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json).
+
  
 ### Kontextmaterialien
 
