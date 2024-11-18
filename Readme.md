@@ -102,6 +102,12 @@ Die Daten der Studie sind im Datensatz als kommaseparierte `.csv` Datei enthalte
 
 Insgesamt werden Antworten der Nutzer:innen auf 16 sich teils regelmäßig wiederholende Fragen bereit gestellt (siehe oben). Zusätzlich wird eine konstant bleibende User-ID der antwortgebenden Person, sowie Geschlecht und Geburtsjahr (in 5-Jahres Schritten) angegeben. Diese Daten werden bei Installation der CDA erhoben. Ebenso enthalten ist die Frequenz/Art des Fragebogens (einmalig, wöchentlich, monatlich) sowie Meta-Informationen zum Zeitpunkt der Antwortabgabe.
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz", "lang": "de"} -->
+
+Die Datei [Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.csv](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Metadaten/schemas/frictionless_data_schema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json) hinterlegt:
+> [frictionless_data_schema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Metadaten/schemas/frictionless_data_schema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable                   | Typ     | Ausprägungen                                           | Beschreibung                                                                                                                                                                                                                            |
 |:---------------------------|:--------|:-------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | userId                     | integer |                                                        | User ID der antwortgebenden Person                                                                                                                                                                                                      |
@@ -128,11 +134,14 @@ Insgesamt werden Antworten der Nutzer:innen auf 16 sich teils regelmäßig wiede
 | sessionIteration           | integer |                                                        | Wiederholung des Fragebogens. Gibt an, wie häufig der entsprechende Fragebogen in der Vergangenheit bereits an die betreffende Person ausgesteuert wurde                                                                                |
 | sessionTimestamp           | integer |                                                        | Zeitstempel der Antwortübermittlung in [Unixzeit](https://de.wikipedia.org/wiki/Unixzeit). Die Zeitstempel bezieht sich auf die vergangenen Millisekunden seit dem 1. Januar 1970, 00:00 Uhr UTC.                                       |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json`](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Metadaten/schemas/frictionless_data_schema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json).
+
 
  
 ### Kontextmaterialien
