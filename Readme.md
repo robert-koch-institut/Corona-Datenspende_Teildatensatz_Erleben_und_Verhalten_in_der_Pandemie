@@ -138,11 +138,6 @@ Die Datei [Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.csv](https://g
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
-
-
-
-
-
  
 ### Kontextmaterialien
 
