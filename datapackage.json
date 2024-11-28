@@ -1,0 +1,17 @@
+{
+  "name": "10.5281/zenodo.7185198",
+  "title": "Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie",
+  "description": "Diese Datei gibt eine Übersicht über die Datensätze in diesem Open Data Repository. Informationen zum Data Package Standard finden Sie unter https://datapackage.org/. Mehr Information über diesen Datensatz finden sie auf Zenodo (https://doi.org/10.5281/zenodo.7185198) oder Github (https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie)",
+  "homepage": "https://doi.org/10.5281/zenodo.7185198",
+  "resources": [
+    {
+      "name": "corona_datenspende_erleben_und_verhalten_teildatensatz",
+      "type": "table",
+      "path": "Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json"
+    }
+  ]
+}
