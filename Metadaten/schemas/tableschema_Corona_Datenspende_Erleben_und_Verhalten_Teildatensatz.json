@@ -16,18 +16,19 @@
           3
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "Baseline"
+          "label": "Baseline"
         },
         {
           "value": "2",
-          "definition": "Monatlich"
+          "label": "Monatlich"
         },
         {
           "value": "3",
-          "definition": "Wöchentlich"
+          "label": "Wöchentlich"
         }
       ]
     },
@@ -41,14 +42,14 @@
           "female"
         ]
       },
-      "valueDefinitions": [
+      "categories": [
         {
           "value": "male",
-          "definition": "männlich"
+          "label": "männlich"
         },
         {
           "value": "female",
-          "definition": "weiblich"
+          "label": "weiblich"
         }
       ]
     },
@@ -74,26 +75,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "nicht besorgniserregend"
+          "label": "nicht besorgniserregend"
         },
         {
           "value": "2",
-          "definition": "kaum besorgniserregend"
+          "label": "kaum besorgniserregend"
         },
         {
           "value": "3",
-          "definition": "wenig besorgniserregend"
+          "label": "wenig besorgniserregend"
         },
         {
           "value": "4",
-          "definition": "eher besorgniserregend"
+          "label": "eher besorgniserregend"
         },
         {
           "value": "5",
-          "definition": "besorgniserregend"
+          "label": "besorgniserregend"
         }
       ]
     },
@@ -113,26 +115,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "sehr barsch (kühl, kritisch, wird leicht ärgerlich, misstrauisch)"
+          "label": "sehr barsch (kühl, kritisch, wird leicht ärgerlich, misstrauisch)"
         },
         {
           "value": "2",
-          "definition": "eher barsch"
+          "label": "eher barsch"
         },
         {
           "value": "3",
-          "definition": "teils/teils"
+          "label": "teils/teils"
         },
         {
           "value": "4",
-          "definition": "eher umgänglich"
+          "label": "eher umgänglich"
         },
         {
           "value": "5",
-          "definition": "sehr umgänglich (kooperativ, herzlich, nett, nachgiebig)"
+          "label": "sehr umgänglich (kooperativ, herzlich, nett, nachgiebig)"
         }
       ]
     },
@@ -152,26 +155,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "sehr gewissenhaft (zuverlässig, sorgfältig, ordentlich, pflichtbewusst, ehrgeizig)"
+          "label": "sehr gewissenhaft (zuverlässig, sorgfältig, ordentlich, pflichtbewusst, ehrgeizig)"
         },
         {
           "value": "2",
-          "definition": "eher gewissenhaft"
+          "label": "eher gewissenhaft"
         },
         {
           "value": "3",
-          "definition": "teils/teils"
+          "label": "teils/teils"
         },
         {
           "value": "4",
-          "definition": "eher nachlässig"
+          "label": "eher nachlässig"
         },
         {
           "value": "5",
-          "definition": "nachlässig (salopp, unordentlich, unpünktlich, chaotisch, nonchalant)"
+          "label": "nachlässig (salopp, unordentlich, unpünktlich, chaotisch, nonchalant)"
         }
       ]
     },
@@ -191,26 +195,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "sehr extrovertiert (gesprächig, gesellig, voller Tatendrang, kontaktfreudig)"
+          "label": "sehr extrovertiert (gesprächig, gesellig, voller Tatendrang, kontaktfreudig)"
         },
         {
           "value": "2",
-          "definition": "eher extrovertiert"
+          "label": "eher extrovertiert"
         },
         {
           "value": "3",
-          "definition": "teils/teils"
+          "label": "teils/teils"
         },
         {
           "value": "4",
-          "definition": "eher introvertiert"
+          "label": "eher introvertiert"
         },
         {
           "value": "5",
-          "definition": "sehr introvertiert (still, schweigsam, zurückgezogen, eher ein Einzelgänger)"
+          "label": "sehr introvertiert (still, schweigsam, zurückgezogen, eher ein Einzelgänger)"
         }
       ]
     },
@@ -230,26 +235,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "sehr emotional (nervös, ängstlich, regt sich leicht auf, angespannt, empfindlich)"
+          "label": "sehr emotional (nervös, ängstlich, regt sich leicht auf, angespannt, empfindlich)"
         },
         {
           "value": "2",
-          "definition": "eher emotional"
+          "label": "eher emotional"
         },
         {
           "value": "3",
-          "definition": "teils/teils"
+          "label": "teils/teils"
         },
         {
           "value": "4",
-          "definition": "eher ausgeglichen "
+          "label": "eher ausgeglichen "
         },
         {
           "value": "5",
-          "definition": "sehr ausgeglichen (gelassen, entspannt, selbstzufrieden, robust)"
+          "label": "sehr ausgeglichen (gelassen, entspannt, selbstzufrieden, robust)"
         }
       ]
     },
@@ -269,50 +275,52 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "sehr aufgeschlossen (offen für Neues, wissbegierig, kultiviert, fantasievoll)"
+          "label": "sehr aufgeschlossen (offen für Neues, wissbegierig, kultiviert, fantasievoll)"
         },
         {
           "value": "2",
-          "definition": "eher aufgeschlossen"
+          "label": "eher aufgeschlossen"
         },
         {
           "value": "3",
-          "definition": "teils/teils"
+          "label": "teils/teils"
         },
         {
           "value": "4",
-          "definition": "eher festgelegt (feste Ansichten und Meinungen, an Neuem eher wenig interessiert, traditionell, mag Routinen und feste Regeln)"
+          "label": "eher festgelegt (feste Ansichten und Meinungen, an Neuem eher wenig interessiert, traditionell, mag Routinen und feste Regeln)"
         },
         {
           "value": "5",
-          "definition": "sehr festgelegt (feste Ansichten und Meinungen, an Neuem eher wenig interessiert, traditionell, mag Routinen und feste Regeln)"
+          "label": "sehr festgelegt (feste Ansichten und Meinungen, an Neuem eher wenig interessiert, traditionell, mag Routinen und feste Regeln)"
         }
       ]
     },
     {
       "name": "CHILDREN",
-      "type": "string",
+      "type": "integer",
       "description": "Vorhandensein von Kindern (Fragebogen-Formulierung/-Frage: \"Haben Sie Kinder unter 18 Jahren?\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2"
+          1,
+          2
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "Ja"
+          "label": "Ja"
         },
         {
           "value": "2",
-          "definition": "Nein"
+          "label": "Nein"
         }
       ]
     },
@@ -332,26 +340,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "stimme überhaupt nicht zu"
+          "label": "stimme überhaupt nicht zu"
         },
         {
           "value": "2",
-          "definition": "stimme eher nicht zu"
+          "label": "stimme eher nicht zu"
         },
         {
           "value": "3",
-          "definition": "teils/teils"
+          "label": "teils/teils"
         },
         {
           "value": "4",
-          "definition": "stimme eher zu"
+          "label": "stimme eher zu"
         },
         {
           "value": "5",
-          "definition": "stimme voll und ganz zu"
+          "label": "stimme voll und ganz zu"
         }
       ]
     },
@@ -371,26 +380,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "extrem unwahrscheinlich"
+          "label": "extrem unwahrscheinlich"
         },
         {
           "value": "2",
-          "definition": "eher unwahrscheinlich"
+          "label": "eher unwahrscheinlich"
         },
         {
           "value": "3",
-          "definition": "vielleicht"
+          "label": "vielleicht"
         },
         {
           "value": "4",
-          "definition": "eher wahrscheinlich"
+          "label": "eher wahrscheinlich"
         },
         {
           "value": "5",
-          "definition": "extrem wahrscheinlich"
+          "label": "extrem wahrscheinlich"
         }
       ]
     },
@@ -410,26 +420,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "überhaupt nicht"
+          "label": "überhaupt nicht"
         },
         {
           "value": "2",
-          "definition": "kaum"
+          "label": "kaum"
         },
         {
           "value": "3",
-          "definition": "etwas"
+          "label": "etwas"
         },
         {
           "value": "4",
-          "definition": "überwiegend"
+          "label": "überwiegend"
         },
         {
           "value": "5",
-          "definition": "sehr"
+          "label": "sehr"
         }
       ]
     },
@@ -449,26 +460,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "überhaupt nicht"
+          "label": "überhaupt nicht"
         },
         {
           "value": "2",
-          "definition": "kaum"
+          "label": "kaum"
         },
         {
           "value": "3",
-          "definition": "etwas"
+          "label": "etwas"
         },
         {
           "value": "4",
-          "definition": "überwiegend"
+          "label": "überwiegend"
         },
         {
           "value": "5",
-          "definition": "sehr"
+          "label": "sehr"
         }
       ]
     },
@@ -488,26 +500,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "überhaupt nicht"
+          "label": "überhaupt nicht"
         },
         {
           "value": "2",
-          "definition": "kaum"
+          "label": "kaum"
         },
         {
           "value": "3",
-          "definition": "etwas"
+          "label": "etwas"
         },
         {
           "value": "4",
-          "definition": "überwiegend"
+          "label": "überwiegend"
         },
         {
           "value": "5",
-          "definition": "sehr"
+          "label": "sehr"
         }
       ]
     },
@@ -527,26 +540,27 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "völlig harmlos"
+          "label": "völlig harmlos"
         },
         {
           "value": "2",
-          "definition": "eher harmlos"
+          "label": "eher harmlos"
         },
         {
           "value": "3",
-          "definition": "mäßig"
+          "label": "mäßig"
         },
         {
           "value": "4",
-          "definition": "eher gefährlich"
+          "label": "eher gefährlich"
         },
         {
           "value": "5",
-          "definition": "extrem gefährlich"
+          "label": "extrem gefährlich"
         }
       ]
     },
@@ -566,50 +580,52 @@
           5
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "überhaupt nicht"
+          "label": "überhaupt nicht"
         },
         {
           "value": "2",
-          "definition": "eher nicht"
+          "label": "eher nicht"
         },
         {
           "value": "3",
-          "definition": "teilweise"
+          "label": "teilweise"
         },
         {
           "value": "4",
-          "definition": "überwiegend"
+          "label": "überwiegend"
         },
         {
           "value": "5",
-          "definition": "ganz und gar"
+          "label": "ganz und gar"
         }
       ]
     },
     {
       "name": "WORK",
-      "type": "string",
+      "type": "integer",
       "description": "Berufstätigkeit (Fragebogen-Formulierung/-Frage: \"Sind Sie berufstätig?\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2"
+          1,
+          2
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "Ja"
+          "label": "Ja"
         },
         {
           "value": "2",
-          "definition": "Nein"
+          "label": "Nein"
         }
       ]
     },
@@ -627,18 +643,19 @@
           3
         ]
       },
-      "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "1",
-          "definition": "Ich habe ausschließlich im Home Office gearbeitet."
+          "label": "Ich habe ausschließlich im Home Office gearbeitet."
         },
         {
           "value": "2",
-          "definition": "Ich habe teilweise im Home Office gearbeitet."
+          "label": "Ich habe teilweise im Home Office gearbeitet."
         },
         {
           "value": "3",
-          "definition": "Ich habe ausschließlich vor Ort bei meinem Arbeitgeber gearbeitet."
+          "label": "Ich habe ausschließlich vor Ort bei meinem Arbeitgeber gearbeitet."
         }
       ]
     },
