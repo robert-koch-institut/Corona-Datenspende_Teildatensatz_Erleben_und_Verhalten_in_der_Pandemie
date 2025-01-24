@@ -7,13 +7,13 @@
     },
     {
       "name": "questionnaire",
-      "type": "string",
+      "type": "integer",
       "description": "Art des Fragebogens",
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3"
+          1,
+          2,
+          3
         ]
       },
       "valueDefinitions": [
@@ -54,23 +54,24 @@
     },
     {
       "name": "birthDate",
-      "type": "integer",
-      "description": "Geburtsjahr"
+      "type": "date",
+      "description": "Geburtsjahr",
+      "format": "%Y"
     },
     {
       "name": "AFFRISK",
-      "type": "string",
+      "type": "integer",
       "description": "Selbsteinschätzung des affektiven Risikos (Fragebogen-Formulierung/-Frage: Das Coronavirus ist für mich...)",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -98,18 +99,18 @@
     },
     {
       "name": "BF_AGREE",
-      "type": "string",
+      "type": "integer",
       "description": "Selbsteinschätzung der eigenen Vertraeglichkeit (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -137,18 +138,18 @@
     },
     {
       "name": "BF_CONSC",
-      "type": "string",
+      "type": "integer",
       "description": "Selbsteinschätzung der eigenen Gewissenhaftigkeit (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -176,18 +177,18 @@
     },
     {
       "name": "BF_EXTRA",
-      "type": "string",
+      "type": "integer",
       "description": "Selbsteinschätzung der eigenen Extraversion (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -215,18 +216,18 @@
     },
     {
       "name": "BF_NEURO",
-      "type": "string",
+      "type": "integer",
       "description": "Selbsteinschätzung des eigenen Neurotizismus (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -254,18 +255,18 @@
     },
     {
       "name": "BF_OPEN",
-      "type": "string",
+      "type": "integer",
       "description": "Selbsteinschätzung der eigenen Offenheit (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -317,18 +318,18 @@
     },
     {
       "name": "EXAGG",
-      "type": "string",
+      "type": "integer",
       "description": "Individuelle Einschätzung von Schutzmaßnahmen (Fragebogen-Formulierung/-Frage: \"Ich finde die Maßnahmen, die derzeit zur Pandemiebekämpfung ergriffen werden, stark übertrieben.\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -356,18 +357,18 @@
     },
     {
       "name": "PROB",
-      "type": "string",
+      "type": "integer",
       "description": "Einschätzung der eigenen Erkrankungswahrscheinlichkeit (Fragebogen-Formulierung/-Frage: \"Wie hoch schätzen Sie Ihre Wahrscheinlichkeit ein, dass Sie sich mit dem Coronavirus infizieren?\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -395,18 +396,18 @@
     },
     {
       "name": "PROTECT_7D_PRIVATE",
-      "type": "string",
+      "type": "integer",
       "description": "Privates Schutzverhalten (Fragebogen-Formulierung/-Frage: \"Bei Ihnen selbst - Wie sehr haben Sie sich in der letzten Woche privat an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -434,18 +435,18 @@
     },
     {
       "name": "PROTECT_7D_WORK_COLLEAGUES",
-      "type": "string",
+      "type": "integer",
       "description": "Schutzverhalten der Kollegen am Arbeitsplatz (Fragebogen-Formulierung/-Frage: \"Wie sehr haben sich Ihre Kollegen in der letzten Woche am Arbeitsplatz an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -473,18 +474,18 @@
     },
     {
       "name": "PROTECT_7D_WORK_OWN",
-      "type": "string",
+      "type": "integer",
       "description": "Eigenes Schutzverhalten am Arbeitsplatz (Fragebogen-Formulierung/-Frage: \"Wie sehr haben Sie sich in der letzten Woche am Arbeitsplatz an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -512,18 +513,18 @@
     },
     {
       "name": "SEVERITY",
-      "type": "string",
+      "type": "integer",
       "description": "Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung (Fragebogen-Formulierung/-Frage: \"Wie schätzen Sie eine Infektion mit dem Coronavirus für sich selbst ein?\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -551,18 +552,18 @@
     },
     {
       "name": "TRUST_GOV",
-      "type": "string",
+      "type": "integer",
       "description": "Vertrauen in die Regierung (Fragebogen-Formulierung/-Frage: \"Wie sehr vertrauen Sie der Bundesregierung, dass sie mit dem Coronavirus gut und richtig umgeht?\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "valueDefinitions": [
@@ -614,16 +615,16 @@
     },
     {
       "name": "WORKSITUATION",
-      "type": "string",
+      "type": "integer",
       "description": "Gestaltung des Arbeitsalltags (Fragebogen-Formulierung/-Frage: \"Wie haben Sie in der letzten Woche ihren Arbeitsalltag gestaltet?\")",
       "missingValues": [
         "NA"
       ],
       "constraints": {
         "enum": [
-          "1",
-          "2",
-          "3"
+          1,
+          2,
+          3
         ]
       },
       "valueDefinitions": [
@@ -644,7 +645,8 @@
     {
       "name": "DATE",
       "type": "date",
-      "description": "Antwortdatum im ISO-8601 Format"
+      "description": "Antwortdatum im ISO-8601 Format",
+      "format": "%Y-%m-%d"
     },
     {
       "name": "sessionIteration",
