@@ -1,0 +1,682 @@
+{
+  "fields": [
+    {
+      "name": "userId",
+      "type": "integer",
+      "description": "User ID der antwortgebenden Person",
+      "example": "1059"
+    },
+    {
+      "name": "questionnaire",
+      "type": "integer",
+      "description": "Art des Fragebogens",
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "Baseline"
+        },
+        {
+          "value": "2",
+          "label": "Monatlich"
+        },
+        {
+          "value": "3",
+          "label": "Wöchentlich"
+        }
+      ]
+    },
+    {
+      "name": "gender",
+      "type": "string",
+      "description": "Geschlecht",
+      "constraints": {
+        "enum": [
+          "male",
+          "female"
+        ]
+      },
+      "categories": [
+        {
+          "value": "male",
+          "label": "männlich"
+        },
+        {
+          "value": "female",
+          "label": "weiblich"
+        }
+      ]
+    },
+    {
+      "name": "birthDate",
+      "type": "date",
+      "description": "Geburtsjahr",
+      "format": "%Y"
+    },
+    {
+      "name": "AFFRISK",
+      "type": "integer",
+      "description": "Selbsteinschätzung des affektiven Risikos (Fragebogen-Formulierung/-Frage: Das Coronavirus ist für mich...)",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "nicht besorgniserregend"
+        },
+        {
+          "value": "2",
+          "label": "kaum besorgniserregend"
+        },
+        {
+          "value": "3",
+          "label": "wenig besorgniserregend"
+        },
+        {
+          "value": "4",
+          "label": "eher besorgniserregend"
+        },
+        {
+          "value": "5",
+          "label": "besorgniserregend"
+        }
+      ]
+    },
+    {
+      "name": "BF_AGREE",
+      "type": "integer",
+      "description": "Selbsteinschätzung der eigenen Vertraeglichkeit (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "sehr barsch (kühl, kritisch, wird leicht ärgerlich, misstrauisch)"
+        },
+        {
+          "value": "2",
+          "label": "eher barsch"
+        },
+        {
+          "value": "3",
+          "label": "teils/teils"
+        },
+        {
+          "value": "4",
+          "label": "eher umgänglich"
+        },
+        {
+          "value": "5",
+          "label": "sehr umgänglich (kooperativ, herzlich, nett, nachgiebig)"
+        }
+      ]
+    },
+    {
+      "name": "BF_CONSC",
+      "type": "integer",
+      "description": "Selbsteinschätzung der eigenen Gewissenhaftigkeit (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "sehr gewissenhaft (zuverlässig, sorgfältig, ordentlich, pflichtbewusst, ehrgeizig)"
+        },
+        {
+          "value": "2",
+          "label": "eher gewissenhaft"
+        },
+        {
+          "value": "3",
+          "label": "teils/teils"
+        },
+        {
+          "value": "4",
+          "label": "eher nachlässig"
+        },
+        {
+          "value": "5",
+          "label": "nachlässig (salopp, unordentlich, unpünktlich, chaotisch, nonchalant)"
+        }
+      ]
+    },
+    {
+      "name": "BF_EXTRA",
+      "type": "integer",
+      "description": "Selbsteinschätzung der eigenen Extraversion (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "sehr extrovertiert (gesprächig, gesellig, voller Tatendrang, kontaktfreudig)"
+        },
+        {
+          "value": "2",
+          "label": "eher extrovertiert"
+        },
+        {
+          "value": "3",
+          "label": "teils/teils"
+        },
+        {
+          "value": "4",
+          "label": "eher introvertiert"
+        },
+        {
+          "value": "5",
+          "label": "sehr introvertiert (still, schweigsam, zurückgezogen, eher ein Einzelgänger)"
+        }
+      ]
+    },
+    {
+      "name": "BF_NEURO",
+      "type": "integer",
+      "description": "Selbsteinschätzung des eigenen Neurotizismus (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "sehr emotional (nervös, ängstlich, regt sich leicht auf, angespannt, empfindlich)"
+        },
+        {
+          "value": "2",
+          "label": "eher emotional"
+        },
+        {
+          "value": "3",
+          "label": "teils/teils"
+        },
+        {
+          "value": "4",
+          "label": "eher ausgeglichen "
+        },
+        {
+          "value": "5",
+          "label": "sehr ausgeglichen (gelassen, entspannt, selbstzufrieden, robust)"
+        }
+      ]
+    },
+    {
+      "name": "BF_OPEN",
+      "type": "integer",
+      "description": "Selbsteinschätzung der eigenen Offenheit (Fragebogen-Formulierung/-Frage: \"Bitte schätzen Sie sich selbst ein:\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "sehr aufgeschlossen (offen für Neues, wissbegierig, kultiviert, fantasievoll)"
+        },
+        {
+          "value": "2",
+          "label": "eher aufgeschlossen"
+        },
+        {
+          "value": "3",
+          "label": "teils/teils"
+        },
+        {
+          "value": "4",
+          "label": "eher festgelegt (feste Ansichten und Meinungen, an Neuem eher wenig interessiert, traditionell, mag Routinen und feste Regeln)"
+        },
+        {
+          "value": "5",
+          "label": "sehr festgelegt (feste Ansichten und Meinungen, an Neuem eher wenig interessiert, traditionell, mag Routinen und feste Regeln)"
+        }
+      ]
+    },
+    {
+      "name": "CHILDREN",
+      "type": "integer",
+      "description": "Vorhandensein von Kindern (Fragebogen-Formulierung/-Frage: \"Haben Sie Kinder unter 18 Jahren?\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "Ja"
+        },
+        {
+          "value": "2",
+          "label": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "EXAGG",
+      "type": "integer",
+      "description": "Individuelle Einschätzung von Schutzmaßnahmen (Fragebogen-Formulierung/-Frage: \"Ich finde die Maßnahmen, die derzeit zur Pandemiebekämpfung ergriffen werden, stark übertrieben.\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "stimme überhaupt nicht zu"
+        },
+        {
+          "value": "2",
+          "label": "stimme eher nicht zu"
+        },
+        {
+          "value": "3",
+          "label": "teils/teils"
+        },
+        {
+          "value": "4",
+          "label": "stimme eher zu"
+        },
+        {
+          "value": "5",
+          "label": "stimme voll und ganz zu"
+        }
+      ]
+    },
+    {
+      "name": "PROB",
+      "type": "integer",
+      "description": "Einschätzung der eigenen Erkrankungswahrscheinlichkeit (Fragebogen-Formulierung/-Frage: \"Wie hoch schätzen Sie Ihre Wahrscheinlichkeit ein, dass Sie sich mit dem Coronavirus infizieren?\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "extrem unwahrscheinlich"
+        },
+        {
+          "value": "2",
+          "label": "eher unwahrscheinlich"
+        },
+        {
+          "value": "3",
+          "label": "vielleicht"
+        },
+        {
+          "value": "4",
+          "label": "eher wahrscheinlich"
+        },
+        {
+          "value": "5",
+          "label": "extrem wahrscheinlich"
+        }
+      ]
+    },
+    {
+      "name": "PROTECT_7D_PRIVATE",
+      "type": "integer",
+      "description": "Privates Schutzverhalten (Fragebogen-Formulierung/-Frage: \"Bei Ihnen selbst - Wie sehr haben Sie sich in der letzten Woche privat an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "überhaupt nicht"
+        },
+        {
+          "value": "2",
+          "label": "kaum"
+        },
+        {
+          "value": "3",
+          "label": "etwas"
+        },
+        {
+          "value": "4",
+          "label": "überwiegend"
+        },
+        {
+          "value": "5",
+          "label": "sehr"
+        }
+      ]
+    },
+    {
+      "name": "PROTECT_7D_WORK_COLLEAGUES",
+      "type": "integer",
+      "description": "Schutzverhalten der Kollegen am Arbeitsplatz (Fragebogen-Formulierung/-Frage: \"Wie sehr haben sich Ihre Kollegen in der letzten Woche am Arbeitsplatz an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "überhaupt nicht"
+        },
+        {
+          "value": "2",
+          "label": "kaum"
+        },
+        {
+          "value": "3",
+          "label": "etwas"
+        },
+        {
+          "value": "4",
+          "label": "überwiegend"
+        },
+        {
+          "value": "5",
+          "label": "sehr"
+        }
+      ]
+    },
+    {
+      "name": "PROTECT_7D_WORK_OWN",
+      "type": "integer",
+      "description": "Eigenes Schutzverhalten am Arbeitsplatz (Fragebogen-Formulierung/-Frage: \"Wie sehr haben Sie sich in der letzten Woche am Arbeitsplatz an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "überhaupt nicht"
+        },
+        {
+          "value": "2",
+          "label": "kaum"
+        },
+        {
+          "value": "3",
+          "label": "etwas"
+        },
+        {
+          "value": "4",
+          "label": "überwiegend"
+        },
+        {
+          "value": "5",
+          "label": "sehr"
+        }
+      ]
+    },
+    {
+      "name": "SEVERITY",
+      "type": "integer",
+      "description": "Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung (Fragebogen-Formulierung/-Frage: \"Wie schätzen Sie eine Infektion mit dem Coronavirus für sich selbst ein?\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "völlig harmlos"
+        },
+        {
+          "value": "2",
+          "label": "eher harmlos"
+        },
+        {
+          "value": "3",
+          "label": "mäßig"
+        },
+        {
+          "value": "4",
+          "label": "eher gefährlich"
+        },
+        {
+          "value": "5",
+          "label": "extrem gefährlich"
+        }
+      ]
+    },
+    {
+      "name": "TRUST_GOV",
+      "type": "integer",
+      "description": "Vertrauen in die Regierung (Fragebogen-Formulierung/-Frage: \"Wie sehr vertrauen Sie der Bundesregierung, dass sie mit dem Coronavirus gut und richtig umgeht?\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "überhaupt nicht"
+        },
+        {
+          "value": "2",
+          "label": "eher nicht"
+        },
+        {
+          "value": "3",
+          "label": "teilweise"
+        },
+        {
+          "value": "4",
+          "label": "überwiegend"
+        },
+        {
+          "value": "5",
+          "label": "ganz und gar"
+        }
+      ]
+    },
+    {
+      "name": "WORK",
+      "type": "integer",
+      "description": "Berufstätigkeit (Fragebogen-Formulierung/-Frage: \"Sind Sie berufstätig?\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "Ja"
+        },
+        {
+          "value": "2",
+          "label": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "WORKSITUATION",
+      "type": "integer",
+      "description": "Gestaltung des Arbeitsalltags (Fragebogen-Formulierung/-Frage: \"Wie haben Sie in der letzten Woche ihren Arbeitsalltag gestaltet?\")",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          1,
+          2,
+          3
+        ]
+      },
+      "categoriesOrdered": true,
+      "categories": [
+        {
+          "value": "1",
+          "label": "Ich habe ausschließlich im Home Office gearbeitet."
+        },
+        {
+          "value": "2",
+          "label": "Ich habe teilweise im Home Office gearbeitet."
+        },
+        {
+          "value": "3",
+          "label": "Ich habe ausschließlich vor Ort bei meinem Arbeitgeber gearbeitet."
+        }
+      ]
+    },
+    {
+      "name": "DATE",
+      "type": "date",
+      "description": "Antwortdatum im ISO-8601 Format",
+      "format": "%Y-%m-%d"
+    },
+    {
+      "name": "sessionIteration",
+      "type": "integer",
+      "description": "Wiederholung des Fragebogens. Gibt an, wie häufig der entsprechende Fragebogen in der Vergangenheit bereits an die betreffende Person ausgesteuert wurde",
+      "example": "2"
+    },
+    {
+      "name": "sessionTimestamp",
+      "type": "integer",
+      "description": "Zeitstempel der Antwortübermittlung in [Unixzeit](https://de.wikipedia.org/wiki/Unixzeit). Die Zeitstempel bezieht sich auf die vergangenen Millisekunden seit dem 1. Januar 1970, 00:00 Uhr UTC.",
+      "example": "1637847574858"
+    }
+  ]
+}
