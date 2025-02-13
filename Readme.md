@@ -1,25 +1,23 @@
 Datensatzdokumentation  
 # Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie  
 
-[Robert Koch-Institut](https://www.rki.de/DE/Home/homepage_node.html) | RKI  
+[Robert Koch-Institut | RKI](https://www.rki.de)  
 Nordufer 20  
 13353 Berlin  
 
-[Marc Wiedermann](https://marcwie.github.io/) & [Dirk Brockmann](https://rocs.hu-berlin.de/authors/dirk/)  
-P4 |  Epidemiologische Modellierung von Infektionskrankheiten | Robert Koch-Institut  
-[Research on Complex Systems](https://rocs.hu-berlin.de/) | Institut für theoretische Biologie | Humboldt-Universität zu Berlin  
+<br>
 
+[**Marc Wiedermann**](https://marcwie.github.io/)&sup1;&apos;&sup2;, [**Philipp Sprengholz**](https://www.uni-erfurt.de/philosophische-fakultaet/seminare-professuren/medien-und-kommunikationswissenschaft/professuren/gesundheitskommunikation/team/doktorandinnen/philipp-sprengholz)&sup3; & [**Dirk Brockmann**](https://rocs.hu-berlin.de/authors/dirk/)&sup1;&apos;&sup2;  
 
-[Philipp Sprengholz](https://www.uni-erfurt.de/philosophische-fakultaet/seminare-professuren/medien-und-kommunikationswissenschaft/professuren/gesundheitskommunikation/team/doktorandinnen/philipp-sprengholz)  
-Seminar für Medien- und Kommunikationswissenschaft | Universität Erfurt
+&emsp;&emsp;&sup1; Robert Koch-Institut | P4 - Epidemiologische Modellierung von Infektionskrankheiten  
+&emsp;&emsp;&sup2; Humboldt-Universität zu Berlin | Institut für theoretische Biologie | [Research on Complex Systems](https://rocs.hu-berlin.de/)   
+&emsp;&emsp;&sup3; Universität Erfurt | Seminar für Medien- und Kommunikationswissenschaft
 
 ---
 **Zitieren**
 <!-- CITATION_START: {"citation_style": "apa"} -->
 Wiedermann, M., Sprengholz, P., & Brockmann, D. (2022). Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7185199](https://doi.org/10.5281/zenodo.7185199)
 <!-- CITATION_END -->
-
-
 
 ## Informationen zum Datensatz und Entstehungskontext 
 
@@ -166,6 +164,6 @@ Offene Forschungsdaten des RKI werden auf github.com, zenodo.org und edoc.rki.de
 
 ### Lizenz
 
-Der Datensatz "Corona-Datenspende --- Teildatensatz Erleben und Verhalten in der Pandemie" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>
+Der Datensatz "Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>
 
 Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede:r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland/blob/master/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland/blob/master/LIZENZ) Datei des Datensatzes.  
