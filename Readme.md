@@ -1,22 +1,23 @@
 Datensatzdokumentation  
 # Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie  
 
-[Robert Koch-Institut](https://www.rki.de/DE/Home/homepage_node.html) | RKI  
+[Robert Koch-Institut | RKI](https://www.rki.de)  
 Nordufer 20  
 13353 Berlin  
 
-[Marc Wiedermann](https://marcwie.github.io/) & [Dirk Brockmann](https://rocs.hu-berlin.de/authors/dirk/)  
-P4 |  Epidemiologische Modellierung von Infektionskrankheiten | Robert Koch-Institut  
-[Research on Complex Systems](https://rocs.hu-berlin.de/) | Institut für theoretische Biologie | Humboldt-Universität zu Berlin  
+<br>
 
+[**Marc Wiedermann**](https://marcwie.github.io/)&sup1;&apos;&sup2;, [**Philipp Sprengholz**](https://www.uni-erfurt.de/philosophische-fakultaet/seminare-professuren/medien-und-kommunikationswissenschaft/professuren/gesundheitskommunikation/team/doktorandinnen/philipp-sprengholz)&sup3; & [**Dirk Brockmann**](https://rocs.hu-berlin.de/authors/dirk/)&sup1;&apos;&sup2;  
 
-[Philipp Sprengholz](https://www.uni-erfurt.de/philosophische-fakultaet/seminare-professuren/medien-und-kommunikationswissenschaft/professuren/gesundheitskommunikation/team/doktorandinnen/philipp-sprengholz)  
-Seminar für Medien- und Kommunikationswissenschaft | Universität Erfurt
+&emsp;&emsp;&sup1; Robert Koch-Institut | P4 - Epidemiologische Modellierung von Infektionskrankheiten  
+&emsp;&emsp;&sup2; Humboldt-Universität zu Berlin | Institut für theoretische Biologie | [Research on Complex Systems](https://rocs.hu-berlin.de/)   
+&emsp;&emsp;&sup3; Universität Erfurt | Seminar für Medien- und Kommunikationswissenschaft
 
 ---
-
-Wiedermann M, Sprengholz P und  Brockmann D (2022): Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie, Berlin: Zenodo. DOI:[10.5281/zenodo.7185199](http://doi.org/10.5281/zenodo.7185199).  
-
+**Zitieren**
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Wiedermann, M., Sprengholz, P., & Brockmann, D. (2022). Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7185199](https://doi.org/10.5281/zenodo.7185199)
+<!-- CITATION_END -->
 
 ## Informationen zum Datensatz und Entstehungskontext 
 
@@ -102,31 +103,42 @@ Die Daten der Studie sind im Datensatz als kommaseparierte `.csv` Datei enthalte
 
 Insgesamt werden Antworten der Nutzer:innen auf 16 sich teils regelmäßig wiederholende Fragen bereit gestellt (siehe oben). Zusätzlich wird eine konstant bleibende User-ID der antwortgebenden Person, sowie Geschlecht und Geburtsjahr (in 5-Jahres Schritten) angegeben. Diese Daten werden bei Installation der CDA erhoben. Ebenso enthalten ist die Frequenz/Art des Fragebogens (einmalig, wöchentlich, monatlich) sowie Meta-Informationen zum Zeitpunkt der Antwortabgabe.
 
-| Varname | Format | Ausprägungen| Kurzbeschreibung|
-| ------- | ------ | ----------- | ---- |
-| userid | ganzzahlig | Fortlaufend | User ID der antwortgebenden Person |
-| questionnaire | kategorisch| [`1`,`2`,`3`] | Art des Fragebogens (`1.` Baseline, `2.`	Monatlich, `3.`	Wöchentlich)|
-| gender| dichotom | `male`,`female` | Geschlecht |
-| birthDate | ganzzahlig | 5-Jahres Kategorien | Geburtsjahr |
-| AFFRISK | Ordinal | [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung des affektiven Risikos, Formulierung und Ausprägungen siehe oben |
-| BF_AGREE | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung der eigenen Vertraeglichkeit, Formulierung und Ausprägungen siehe oben |
-| BF_CONSC | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung der eigenen Gewissenhaftigkeit, Formulierung und Ausprägungen siehe oben |
-| BF_EXTRA | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung der eigenen Extraversion, Formulierung und Ausprägungen siehe oben |
-| BF_NEURO | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung des eigenen Neurotizismus, Formulierung und Ausprägungen siehe oben |
-| BF_OPEN  | Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung der eigenen Offenheit, Formulierung und Ausprägungen siehe oben |
-| CHILDREN | dichotom | `ja`, `nein` | Vorhandensein von Kindern, Formulierung siehe oben |
-| EXAGG | Ordinal | [`1`,`2`,`3`,`4`,`5`] | Individuelle Einschätzung von Schutzmaßnahmen, Formulierung und Ausprägungen siehe oben|
-| PROB| Ordinal | [`1`,`2`,`3`,`4`,`5`] | Einschätzung der eigenen Erkrankungswahrscheinlichkeit, Formulierung und Ausprägungen siehe oben|
-| PROTECT_7D_PRIVATE| Ordinal| [`1`,`2`,`3`,`4`,`5`] | Privates Schutzverhalten, Formulierung und Ausprägungen siehe oben |
-| PROTECT_7D_WORK_<br>COLLEAGUES | Ordinal| [`1`,`2`,`3`,`4`,`5`]| Schutzverhalten der Kollegen am Arbeitsplatz, Formulierung und Ausprägungen siehe oben|
-| PROTECT_7D_WORK_OWN| Ordinal| [`1`,`2`,`3`,`4`,`5`] | Eigenes Schutzverhalten am Arbeitsplatz, Formulierung und Ausprägungen siehe oben |
-| SEVERITY| Ordinal| [`1`,`2`,`3`,`4`,`5`] | Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung, Formulierung und Ausprägungen siehe oben|
-| TRUST_GOV| Ordinal| [`1`,`2`,`3`,`4`,`5`]| Vertrauen in die Regierung, Formulierung Ausprägungen siehe oben|
-| WORK| dichotom | `ja`, `nein` | Berufstätigkeit, Formulierung siehe oben |
-| WORKSITUATION | kategorisch| [`1`,`2`,`3`]| Gestaltung des Arbeitsalltags, Formulierung und Ausprägungen siehe oben|
-| DATE | YYYY-MM-DD | fortlaufend | Antwortdatum im ISO-8601 Format |
-| sessionIteration| Ganzzahlig | fortlaufend | Wiederholung des Fragebogens. Gibt an, wie häufig der entsprechende Fragebogen in der Vergangenheit bereits an die betreffende Person ausgesteuert wurde |
-| sessionTimestamp| Ganzzahliger Zeitstempel | fortlaufend | Zeitstempel der Antwortübermittlung in [Unixzeit](https://de.wikipedia.org/wiki/Unixzeit). Die Zeitstempel bezieht sich auf die vergangenen Millisekunden seit dem 1. Januar 1970, 00:00 Uhr UTC.|
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz", "lang": "de"} -->
+
+Die Datei [Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.csv](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Metadaten/schemas/tableschema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json) hinterlegt:
+> [tableschema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Metadaten/schemas/tableschema_Corona_Datenspende_Erleben_und_Verhalten_Teildatensatz.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable                   | Typ     | Ausprägungen                                           | Beschreibung                                                                                                                                                                                                                            |
+|:---------------------------|:--------|:-------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| userId                     | integer | Beispiel: `1059`                                       | User ID der antwortgebenden Person                                                                                                                                                                                                      |
+| questionnaire              | integer | Werte: `1`, `2`, `3`                                   | Art des Fragebogens                                                                                                                                                                                                                     |
+| gender                     | string  | Werte: `male`, `female`                                | Geschlecht                                                                                                                                                                                                                              |
+| birthDate                  | date    | Format: `YYYY`                                         | Geburtsjahr                                                                                                                                                                                                                             |
+| AFFRISK                    | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Selbsteinschätzung des affektiven Risikos (Fragebogen-Formulierung/-Frage: Das Coronavirus ist für mich...)                                                                                                                             |
+| BF_AGREE                   | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Selbsteinschätzung der eigenen Vertraeglichkeit (Fragebogen-Formulierung/-Frage: "Bitte schätzen Sie sich selbst ein:")                                                                                                                 |
+| BF_CONSC                   | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Selbsteinschätzung der eigenen Gewissenhaftigkeit (Fragebogen-Formulierung/-Frage: "Bitte schätzen Sie sich selbst ein:")                                                                                                               |
+| BF_EXTRA                   | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Selbsteinschätzung der eigenen Extraversion (Fragebogen-Formulierung/-Frage: "Bitte schätzen Sie sich selbst ein:")                                                                                                                     |
+| BF_NEURO                   | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Selbsteinschätzung des eigenen Neurotizismus (Fragebogen-Formulierung/-Frage: "Bitte schätzen Sie sich selbst ein:")                                                                                                                    |
+| BF_OPEN                    | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Selbsteinschätzung der eigenen Offenheit (Fragebogen-Formulierung/-Frage: "Bitte schätzen Sie sich selbst ein:")                                                                                                                        |
+| CHILDREN                   | integer | Werte: `1`, `2`<br>Fehlende Werte: `NA`                | Vorhandensein von Kindern (Fragebogen-Formulierung/-Frage: "Haben Sie Kinder unter 18 Jahren?")                                                                                                                                         |
+| EXAGG                      | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Individuelle Einschätzung von Schutzmaßnahmen (Fragebogen-Formulierung/-Frage: "Ich finde die Maßnahmen, die derzeit zur Pandemiebekämpfung ergriffen werden, stark übertrieben.")                                                      |
+| PROB                       | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Einschätzung der eigenen Erkrankungswahrscheinlichkeit (Fragebogen-Formulierung/-Frage: "Wie hoch schätzen Sie Ihre Wahrscheinlichkeit ein, dass Sie sich mit dem Coronavirus infizieren?")                                             |
+| PROTECT_7D_PRIVATE         | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Privates Schutzverhalten (Fragebogen-Formulierung/-Frage: "Bei Ihnen selbst - Wie sehr haben Sie sich in der letzten Woche privat an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?")                     |
+| PROTECT_7D_WORK_COLLEAGUES | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Schutzverhalten der Kollegen am Arbeitsplatz (Fragebogen-Formulierung/-Frage: "Wie sehr haben sich Ihre Kollegen in der letzten Woche am Arbeitsplatz an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?") |
+| PROTECT_7D_WORK_OWN        | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Eigenes Schutzverhalten am Arbeitsplatz (Fragebogen-Formulierung/-Frage: "Wie sehr haben Sie sich in der letzten Woche am Arbeitsplatz an die geltenden Vorschriften und Empfehlungen zur Pandemiebekämpfung gehalten?")                |
+| SEVERITY                   | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Selbsteinschätzung des Schweregrads einer COVID-19 Erkrankung (Fragebogen-Formulierung/-Frage: "Wie schätzen Sie eine Infektion mit dem Coronavirus für sich selbst ein?")                                                              |
+| TRUST_GOV                  | integer | Werte: `1`, `2`, `3`, `4`, `5`<br>Fehlende Werte: `NA` | Vertrauen in die Regierung (Fragebogen-Formulierung/-Frage: "Wie sehr vertrauen Sie der Bundesregierung, dass sie mit dem Coronavirus gut und richtig umgeht?")                                                                         |
+| WORK                       | integer | Werte: `1`, `2`<br>Fehlende Werte: `NA`                | Berufstätigkeit (Fragebogen-Formulierung/-Frage: "Sind Sie berufstätig?")                                                                                                                                                               |
+| WORKSITUATION              | integer | Werte: `1`, `2`, `3`<br>Fehlende Werte: `NA`           | Gestaltung des Arbeitsalltags (Fragebogen-Formulierung/-Frage: "Wie haben Sie in der letzten Woche ihren Arbeitsalltag gestaltet?")                                                                                                     |
+| DATE                       | date    | Format: `YYYY-MM-DD`                                   | Antwortdatum im ISO-8601 Format                                                                                                                                                                                                         |
+| sessionIteration           | integer | Beispiel: `2`                                          | Wiederholung des Fragebogens. Gibt an, wie häufig der entsprechende Fragebogen in der Vergangenheit bereits an die betreffende Person ausgesteuert wurde                                                                                |
+| sessionTimestamp           | integer | Beispiel: `1637847574858`                              | Zeitstempel der Antwortübermittlung in [Unixzeit](https://de.wikipedia.org/wiki/Unixzeit). Die Zeitstempel bezieht sich auf die vergangenen Millisekunden seit dem 1. Januar 1970, 00:00 Uhr UTC.                                       |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
  
 ### Kontextmaterialien
 
@@ -152,6 +164,6 @@ Offene Forschungsdaten des RKI werden auf github.com, zenodo.org und edoc.rki.de
 
 ### Lizenz
 
-Der Datensatz "Corona-Datenspende --- Teildatensatz Erleben und Verhalten in der Pandemie" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>
+Der Datensatz "Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>
 
 Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede:r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland/blob/master/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland/blob/master/LIZENZ) Datei des Datensatzes.  
