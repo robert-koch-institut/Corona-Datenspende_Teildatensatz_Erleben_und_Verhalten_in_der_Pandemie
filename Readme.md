@@ -29,7 +29,7 @@ Die hier bereitgestellten Daten dienen der Reproduktion aller Ergebnisse in der 
 
 ### Projektbeteiligte und Rollenbesetzung  
 
-Die CDA wird vom Robert Koch-Institut herausgegeben. Die Projektleitung und -koordination liegt bei der Projektgruppe [P4 | Modellierung von Infektionskrankheiten](https://www.rki.de/DE/Institut/Organisation/Projektgruppen-und-Nachwuchsgruppen/P4/p4-epidemiologische-modellierung-von-infektionskrankheiten-node.html). Die App wurde in Zusammenarbeit mit [Thryve (mHealth Pioneers GmbH)](https://thryve.health/) entwickelt, einem auf Digital Health spezialisierten Unternehmen. Dieses Unternehmen ist der technologische Dienstleister. Fragen bezüglich der Corona-Datenspende können an [corona-datenspende@rki.de](mailti:corona-datenspende@rki.de) gerichtet werden.  
+Die CDA wird vom Robert Koch-Institut herausgegeben. Die Projektleitung und -koordination liegt bei der Projektgruppe P4 | Modellierung von Infektionskrankheiten. Die App wurde in Zusammenarbeit mit [Thryve (mHealth Pioneers GmbH)](https://thryve.health/) entwickelt, einem auf Digital Health spezialisierten Unternehmen. Dieses Unternehmen ist der technologische Dienstleister. Fragen bezüglich der Corona-Datenspende können an [corona-datenspende@rki.de](mailti:corona-datenspende@rki.de) gerichtet werden.  
 
 Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
 
