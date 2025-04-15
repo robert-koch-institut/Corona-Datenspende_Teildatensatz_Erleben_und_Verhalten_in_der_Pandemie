@@ -29,9 +29,9 @@ Die hier bereitgestellten Daten dienen der Reproduktion aller Ergebnisse in der 
 
 ### Projektbeteiligte und Rollenbesetzung  
 
-Die CDA wird vom Robert Koch-Institut herausgegeben. Die Projektleitung und -koordination liegt bei der Projektgruppe [P4 | Modellierung von Infektionskrankheiten](https://www.rki.de/DE/Content/Forsch/Projektgruppen/Projektgruppe_4/P4_inhalt.html). Die App wurde in Zusammenarbeit mit [Thryve (mHealth Pioneers GmbH)](https://thryve.health/) entwickelt, einem auf Digital Health spezialisierten Unternehmen. Dieses Unternehmen ist der technologische Dienstleister. Fragen bezüglich der Corona-Datenspende können an [corona-datenspende@rki.de](mailti:corona-datenspende@rki.de) gerichtet werden.  
+Die CDA wird vom Robert Koch-Institut herausgegeben. Die Projektleitung und -koordination liegt bei der Projektgruppe P4 | Modellierung von Infektionskrankheiten. Die App wurde in Zusammenarbeit mit [Thryve (mHealth Pioneers GmbH)](https://thryve.health/) entwickelt, einem auf Digital Health spezialisierten Unternehmen. Dieses Unternehmen ist der technologische Dienstleister. Fragen bezüglich der Corona-Datenspende können an [corona-datenspende@rki.de](mailti:corona-datenspende@rki.de) gerichtet werden.  
 
-Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
+Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
 
 Durch sorgfältige Auswahl und regelmäßige Kontrolle stellt das Robert Koch-Institut sicher, dass der Dienstleister alle organisatorischen und technischen Maßnahmen trifft, die zum Schutz der Daten erforderlich sind. Alle Maßnahmen stehen im Einklang mit dem geltenden Datenschutzrecht.
 
@@ -146,24 +146,62 @@ Umfassende weitere Informationen zur Corona-Datenspende sowie aktuelle Auswertun
 
 Eine Publikation der Analysen auf Basis des hier bereit gestellten Datensatzes folgt in Kürze. Skripte zur Aufbereitung der Daten und Reproduktion der Ergebnisse in vorgenannter Publikation folgen ebenfalls in Kürze auf dem [Open Sience Framework](https://osf.io/). Die entsprechenden Links werden dann hier angegeben.
 
-### Metadaten
 
-Die bereitgestellten Daten sind mit Metadaten beschrieben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
+<!-- FOOTER_START: {"lang": "de"} -->
 
-- [Metadaten/zenodo.json](Metadaten/zenodo.json)  
 
-Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
 
-## Hinweise zur Nachnutzung der Daten
+### Metadaten  
 
-Offene Forschungsdaten des RKI werden auf github.com, zenodo.org und edoc.rki.de bereitgestellt:  
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-* https://github.com/robert-koch-institut  
-* https://zenodo.org/communities/robertkochinstitut  
-* https://edoc.rki.de/
+> [Metadaten/](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/tree/main/Metadaten/) 
 
-### Lizenz
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+ 
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/Metadaten/zenodo.json)  
 
-Der Datensatz "Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>
+In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede:r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland/blob/master/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland/blob/master/LIZENZ) Datei des Datensatzes.  
+```
+  "dates": [
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
+    }
+  ],
+```    
+
+
+Zusätzlich beschreiben wir tabellarische Daten mithilfe des [Data Package Standards](https://datapackage.org/).
+Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer datapackage.json-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schema-Definitionen beschreibt.
+
+Der Data Package Standard wird von der [Open Knowledge Foundation](https://okfn.org/) bereitgestellt und ist ein offenes Format, das eine einfache, maschinenlesbare Beschreibung von Datensätzen ermöglicht.
+
+Die Liste der in diesem Repository enthaltenen Daten ist in folgender Datei hinterlegt:
+
+> [datapackage.json](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/tree/main/datapackage.json)
+
+Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schema-Dateien finden sich unter:
+
+> [Metadaten/schemas/](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/tree/main/Metadaten/schemas) 
+
+
+
+## Hinweise zur Nachnutzung der Daten  
+
+Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
+
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut  
+- https://edoc.rki.de/  
+ 
+### Lizenz  
+
+Der Datensatz "Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie/blob/main/LIZENZ) Datei des Datensatzes.  
+<!-- FOOTER_END -->
